@@ -1,0 +1,102 @@
+
+.bookBody {
+  width: 100vw;
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url('./Images/bg2.png');
+  background-attachment: fixed;
+}
+
+.bookCenter {
+  width: 600px;
+  min-height: 300px;
+  height: fit-content;
+  box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.637);
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.623);
+  border-radius: 20px;
+}
+
+.bookLeft {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.bookRight {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+
+.bookInfoImage {
+  width: 90%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+
+.bookInfoImage img {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.bookInfoTitle {
+  width: 100%;
+  min-height: 50px;
+  height: fit-content;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.bookInfoAuthor {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  color: gray;
+}
+
+.bookInfoDescription {
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+.backButton {
+  width: 70px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.bookFurtherInfo {
+width: 90%;
+height: fit-content;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+font-size: 15px;
+}
+
+.bookFurtherInfo p {
+  margin: 5px;
+}
